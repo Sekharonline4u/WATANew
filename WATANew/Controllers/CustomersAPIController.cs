@@ -18,9 +18,9 @@ namespace WATANew.Controllers
         private tadbEntities1 db = new tadbEntities1();
 
         // GET: api/CustomersAPI
-        public IQueryable<Customer> GetCustomers()
+        public IEnumerable<Customer> GetCustomers()
         {
-            return db.Customers;
+            return db.Customers.ToList();
         }
 
         // GET: api/CustomersAPI/5
