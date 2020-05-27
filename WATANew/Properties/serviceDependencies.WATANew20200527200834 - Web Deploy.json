@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/tadbgroup/databases/tadb",
+      "type": "mssql.azure",
+      "connectionId": "tadbEntities1",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
