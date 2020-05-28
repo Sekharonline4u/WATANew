@@ -26,5 +26,7 @@ namespace WATANew
         }
     
         public virtual DbSet<Customer> Customers { get; set; }
+
+        public System.Data.Entity.DbSet<WATANew.Product> Products { get; set; }
     }
 }
